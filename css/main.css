@@ -1,0 +1,220 @@
+/********* BASE STYLES ***********/
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #262a2b;
+}
+
+#about, #work, #contact {
+	height: 600px;
+}
+
+/********* GRID› ***********/
+
+.full-width {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.half-width {
+	width: 600px;
+	float: left;
+}
+
+.third-width {
+	width: 400px;
+	float: left;
+}
+
+/********* HEADER STYLES ***********/
+
+header {
+	height: 800px;
+	background-image: url('../img/full-background.png');
+	background-size: cover;
+}
+
+
+h1 {
+	font-size: 30px;
+	font-family: 'Lora', serif;
+	font-weight: bold;
+	color: #bbc085;
+	padding: 50px 0;
+}
+
+
+/*Nav Bar*/
+
+nav {
+	float: right;
+	padding: 75px 40px;
+}
+
+
+/*Strip ul styling*/
+
+header ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+/*Create horizontal bar*/
+
+header li {
+	display: inline-block;
+	padding-left: 80px;
+}
+
+header a {
+	text-transform: uppercase;
+	font-size: 18px;
+	color: #828282;
+	text-decoration: none;
+}
+
+
+/*Tagline is h2*/
+
+header h2 {
+	width: 1000px;
+	clear: both;
+	font-size: 72px;
+	font-family: 'Lora', serif;
+	color: #9a9b9b;
+	line-height: 80px;
+	padding: 20px 0;
+}
+
+header h2 span {
+	color: #262a2b;
+}
+
+
+/********* ABOUT STYLES ***********/
+
+#about .full-width {
+	padding: 80px 0;
+}
+
+#about h2 {
+	font-family: 'Lora', serif;
+	font-size: 36px;
+}
+
+#about p {
+	font-size: 21px;
+	color: #7f7f7f;
+	line-height: 40px;
+	padding-right: 50px;
+}
+
+
+/********* WORK STYLES ***********/
+
+#work {
+	background-color: #f9ceb7;
+	text-align: center;
+}
+
+#work .full-width {
+	padding-top: 155px;
+}
+
+#work img {
+	padding-bottom: 30px;
+}
+
+#work h3 {
+	font-weight: bold;
+	font-size: 24px;
+	margin: 0 auto;
+}
+
+#work p {
+	font-family: 'Lora', serif;
+	font-size: 18px;
+    line-height: 30px;
+    padding: 0 35px;
+}
+
+/*Fix spacing for uneven height of work icons*/
+#work #second-work-header {
+	margin-top: 13px;
+}
+
+#work #third-work-header {
+	margin-top: 16px;
+}
+
+
+
+/********* CONTACT / FOOTER STYLES ***********/
+
+#contact {
+	background-color: #ebebeb;
+}
+
+#contact .full-width{
+	padding: 115px 15px;
+}
+
+#contact-info {
+	padding: 35px 0 0 115px;
+
+}
+
+#contact-image {
+	border: 16px white solid;
+}
+
+#contact h2 {
+	font-family: 'Lora', serif;
+	font-size: 36px;
+	font-weight: bold;
+	margin: 0;
+}
+
+#email-header {
+	font-size: 32px;
+	font-weight: normal;
+	margin: 0;
+}
+
+#contact a {
+	font-size: 28px;
+	color: #C49075;
+	font-weight: bold;
+	line-height: 50px;
+	text-decoration: none;
+}
+
+#contact img {
+	margin-right: 10px;
+}
+
+
+#socialmedia-header {
+	margin-top: 75px;
+	margin-bottom: 25px;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+
+/*Social Icons
+Strip ul styling*/
+
+#contact ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+/*Create horizontal bar*/
+
+#contact li {
+	display: inline-block;
+	margin-right: 48px;
+}
