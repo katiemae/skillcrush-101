@@ -112,13 +112,18 @@ header h2 span {
 #about h2 {
 	font-family: 'Lora', serif;
 	font-size: 36px;
+	padding: 0 2.5%;
 }
 
 #about p {
 	font-size: 21px;
 	color: #7f7f7f;
 	line-height: 40px;
-	padding-right: 50px;
+	padding: 0 5%;
+}
+
+#about #half-width:nth-of-type(2) p {
+	padding-right: 0;
 }
 
 
@@ -173,7 +178,7 @@ header h2 span {
 }
 
 #contact-info {
-	padding: 35px 0 0 115px;
+	padding: 5% 0 0 20%;
 
 }
 
@@ -211,7 +216,7 @@ header h2 span {
 
 
 #socialmedia-header {
-	margin-top: 75px;
+	margin-top: 15%;
 	margin-bottom: 25px;
 	font-size: 28px;
 	font-weight: bold;
